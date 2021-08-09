@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` varchar(35) NOT NULL,
+  `first_name` text NOT NULL,
+  `last_name` text NOT NULL,
+  `mob_no` int(11) NOT NULL,
+  `user_name` varchar(20) NOT NULL,
+  `password` varchar(15) NOT NULL,
+  PRIMARY KEY (`id`)
+) ;

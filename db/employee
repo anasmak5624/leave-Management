@@ -1,0 +1,11 @@
+use leave_management;
+CREATE TABLE `employee` (
+  `id` varchar(340) NOT NULL,
+  `first_name` text NOT NULL,
+  `last_name` text NOT NULL,
+  `mob_no` varchar(10) NOT NULL,
+  `DOB` date NOT NULL,
+  `Salary` varchar(15) NOT NULL,
+  `Designation` varchar(15) NOT NULL,
+  PRIMARY KEY (`id`)
+) ;
